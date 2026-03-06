@@ -33,13 +33,15 @@
 
     <nav class="navbar">
 
-        <div class="logo">DUVANART<span class="dot">.</span></div>
+        <div class="logo">Manitos<span class="dot">Creativas</span></div>
 
         <ul class="nav-links">
 
             <li><a href="#home">Inicio</a></li>
             <li><a href="#about">Sobre mí</a></li>
             <li><a href="#works">Obras</a></li>
+            <li><a href="#works">Catálogo</a></li>
+            <li><a href="#works">Clientes</a></li>
             <li><a href="#contact" class="btn-nav">Contacto</a></li>
 
         </ul>
@@ -50,35 +52,30 @@
 
     </nav>
 
-
     <!-- HERO -->
 
     <header id="home" class="hero">
 
         <div class="hero-content">
-
             <h4 class="subtitle">PORTFOLIO</h4>
 
             <h1 class="title">
                 Hola soy<br>
-                <span class="highlight">DUVAN</span>
+                <span class="highlight">DUVAN FELIPE</span>
             </h1>
 
             <p class="hero-desc">
-                Un poco de Arte, un poco de Amor. Especialista en capturar emociones a través del papel.
+                Especialista en capturar emociones a través del papel.
             </p>
 
             <a href="#works" class="btn-primary">
                 VER MIS OBRAS
                 <i class="fas fa-arrow-right"></i>
             </a>
-
         </div>
 
         <div class="hero-image">
-
             <img src="img/duvan-perfil.jpeg" alt="Duvan Felipe artista retratista" loading="lazy">
-
         </div>
 
     </header>
@@ -89,36 +86,30 @@
     <section id="about" class="about">
 
         <div class="container">
-
             <div class="about-grid">
-
                 <div class="about-img-wrapper">
 
                     <div class="img-box">
-
-                        <img src="img/pinceles.jpg" alt="Artista pintando retrato con pinceles" loading="lazy">
-
+                        <img src="img/duvan-perfil1.JPG" alt="Artista pintando retrato con pinceles" loading="lazy">
                     </div>
 
                     <div class="deco-circle"></div>
-
                 </div>
 
                 <div class="about-text">
-
                     <h2 class="section-title">
                         SOBRE MÍ
                         <span class="line"></span>
                     </h2>
-
                     <p>
                         Soy un hombre que <strong>ama ver cómo una foto inicial se transforma en una obra de arte
                             eterna</strong>, que cuenta una historia y genera sentimientos.
                     </p>
 
                     <p>
-                        Aprendí de forma <strong>empírica</strong> y heredé parte del talento de mi padre, quien también
-                        amaba pintar.
+                        Aprendí de forma <strong>empírica</strong> y, siendo honesto, heredé parte del talento de mi
+                        padre, quien
+                        en sus tiempos también amaba pintar.
                     </p>
 
                     <p>
@@ -127,7 +118,6 @@
                     </p>
 
                     <div class="stats-grid">
-
                         <div class="stat">
                             <h4>10.6k</h4>
                             <p>Seguidores</p>
@@ -137,118 +127,280 @@
                             <h4>100+</h4>
                             <p>Obras Entregadas</p>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
-
         </div>
 
     </section>
 
-
     <!-- OBRAS -->
-
     <section id="works" class="works">
 
         <div class="container">
-
             <div class="section-header">
 
                 <h2 class="section-title">
-                    MIS OBRAS
+                    OBRAS PRINCIPALES
                     <span class="line-green"></span>
                 </h2>
-
-                <p>Retratos personalizados</p>
-
             </div>
-
 
             <div class="gallery-grid">
 
                 <div class="work-item">
-
-                    <img src="img/negro.png" alt="Retrato realista de Negro" loading="lazy">
-
-                    <div class="overlay">
-
-                        <h3>Negro</h3>
-                        <p>Técnica Colores porfesionales</p>
-
-                    </div>
-
-                </div>
-
-
-                <div class="work-item">
-
                     <img src="img/carito-soto.png" alt="Retrato de Praga" loading="lazy">
-
                     <div class="overlay">
 
-                        <h3>Praga</h3>
-                        <p>Técnica Pintura Acrilica</p>
-
+                        <h3>Carito Soto</h3>
+                        <p>24 de Febrero de 2021</p>
                     </div>
-
                 </div>
-
 
                 <div class="work-item">
-
-                    <img src="img/aleja-avila.png" alt="Retrato de Maya" loading="lazy">
-
+                    <img src="img/rafaella.png" alt="Retrato realista de Negro" loading="lazy">
                     <div class="overlay">
 
-                        <h3>Maya</h3>
-                        <p>Con la bella Ajela Avila</p>
-
+                        <h3>Rafaella</h3>
+                        <p>17 de Marzo de 2021</p>
                     </div>
-
                 </div>
 
-            </div>
+                <div class="work-item">
+                    <img src="img/aleja-avila.png" alt="Retrato de Maya" loading="lazy">
+                    <div class="overlay">
 
+                        <h3>Aleja Avila</h3>
+                        <p>15 de Abril de 2021</p>
+
+                    </div>
+                </div>
+            </div>
         </div>
 
     </section>
 
+    <!-- CATALOGO -->
+
+    <section id="catalogo" class="catalogo">
+        <div class="container">
+
+            <div class="section-header">
+                <h2 class="section-title">
+                    CATÁLOGO
+                    <span class="line-green"></span>
+                </h2>
+            </div>
+
+            <!-- BOTONES DE CATEGORIAS -->
+
+            <div class="catalogo-filters">
+
+                <button class="cat-btn active" data-cat="all">Todos</button>
+                <button class="cat-btn" data-cat="mascotas">Retratos Mascotas</button>
+                <button class="cat-btn" data-cat="personas">Retratos Personas</button>
+                <button class="cat-btn" data-cat="cases">Cases</button>
+                <button class="cat-btn" data-cat="infantiles">Cuadros Infantiles</button>
+                <button class="cat-btn" data-cat="chaquetas">Chaquetas</button>
+                <button class="cat-btn" data-cat="f1">Formula 1</button>
+
+            </div>
+
+            <!-- GALERIA -->
+
+            <div class="catalogo-grid">
+                <!-- MASCOTAS -->
+                <div class="catalogo-item mascotas" 
+                    data-title="Canela, Jeico & Bruno" 
+                    data-desc="Retrato de mis perros favoritos"
+                    data-images='[
+                        "img/perros/bruno-jeico.png",
+                        "img/perros/bruno-jeico (1).png",
+                        "img/perros/bruno-jeico (2).png"
+                    ]'>
+                    <img src="img/perros/bruno-jeico.png" alt="Bruno y Jeico">
+                </div>
+
+                <div class="catalogo-item mascotas"
+                    data-title="Martina & Nala" 
+                    data-desc="Dos hermosas princesas"
+                    data-images='[
+                        "img/perros/foto_1.jpg",
+                        "img/perros/foto_2.jpg",
+                        "img/gatos/nala (1).jpg",
+                        "img/gatos/nala (2).jpg",
+                        "img/perros/foto_3.jpeg"
+                    ]'>
+                    <img src="img/perros/foto_1.jpg" alt="Tres perros">
+                </div>
+
+                <div class="catalogo-item mascotas" 
+                    data-title="Pepo"
+                    data-images='[
+                        "img/perros/pepo.jpg",
+                        "img/perros/pepo_1.jpeg"
+                    ]'>
+                    <img src="img/perros/pepo.jpg" alt="Pepo">
+                </div>
+
+                <div class="catalogo-item mascotas" 
+                    data-title="Tequila"
+                    data-images='[
+                        "img/perros/tequila (1).png",
+                        "img/perros/tequila (2).png",
+                        "img/perros/tequila (3).png"
+                    ]'>
+                    <img src="img/perros/tequila (2).png" alt="Tequila">
+                </div>
+
+                <div class="catalogo-item mascotas"
+                    data-title="Negro"
+                    data-images='[
+                        "img/gatos/negro (1).png",
+                        "img/gatos/negro (2).png",
+                        "img/gatos/negro (3).png"
+                    ]'>
+                    <img src="img/gatos/negro (1).png" alt="Negro">
+                </div>
+
+                <!-- PERSONAS -->
+                <div class="catalogo-item personas" 
+                    data-title="Retrato de Bebé" 
+                    data-desc="Retrato infantil con marco personalizado"
+                    data-images='[
+                        "img/rostros/Bebe (8).jpg",
+                        "img/rostros/Bebe (4).jpg",
+                        "img/rostros/Bebe (5).jpg",
+                        "img/rostros/Bebe (6).jpg",
+                        "img/rostros/Bebe (2).jpg"
+                    ]'>
+                    <img src="img/rostros/Bebe (1).jpg" alt="Retrato de bebé">
+                </div>
+
+                <div class="catalogo-item personas" 
+                    data-title="Retrato Familiar - Familia Aranque" 
+                    data-desc="Retrato grupal familiar pintado en acrílico. Capturando momentos especiales en familia."
+                    data-images='[
+                        "img/rostros/aranque (2).png",
+                        "img/rostros/aranque (1).png",
+                        "img/rostros/aranque (3).png",
+                        "img/rostros/aranque (4).png",
+                        "img/rostros/aranque (5).png",
+                        "img/rostros/aranque (6).png"
+                    ]'>
+                    <img src="img/rostros/aranque (2).png" alt="Retrato familiar Aranque">
+                </div>
+
+                <div class="catalogo-item personas"
+                    data-title="Retrato Familiar"
+                    data-images='[
+                        "img/rostros/familia-paola (1).png",
+                        "img/rostros/familia-paola (2).png",
+                        "img/rostros/familia-paola (3).png"
+                    ]'>
+                    <img src="img/rostros/familia-paola (1).png">
+                </div>
+
+                <!-- CASES -->
+                <div class="catalogo-item cases">
+                    <img src="img/cases/case-4 (1).png">
+                </div>
+
+                <div class="catalogo-item cases">
+                    <img src="img/cases/case-1.png">
+                </div>
+
+                <div class="catalogo-item cases">
+                    <img src="img/cases/case-2 (1).png">
+                </div>
+
+                <div class="catalogo-item cases">
+                    <img src="img/cases/case-5 (1).png">
+                </div>
+
+                <div class="catalogo-item cases">
+                    <img src="img/cases/case-3 (1).png">
+                </div>
+
+                <!-- INFANTIL -->
+                <div class="catalogo-item infantiles">
+                    <img src="img/infantil/infantil (3).png">
+                </div>
+
+                <div class="catalogo-item infantiles">
+                    <img src="img/infantil/infantil (1).png">
+                </div>
+
+                <div class="catalogo-item infantiles">
+                    <img src="img/infantil/infantil (2).png">
+                </div>
+
+                <!-- CHAQUETAS -->
+                <div class="catalogo-item chaquetas">
+                    <img src="img/chaqueta/jeico (2).png">
+                </div>
+
+                <div class="catalogo-item chaquetas">
+                    <img src="img/chaqueta/juancho (1).png">
+                </div>
+
+                <!-- FORMULA 1 -->
+                <div class="catalogo-item f1">
+                    <img src="img/formula/hamilton-1.jpg">
+                </div>
+
+                <div class="catalogo-item f1">
+                    <img src="img/formula/hamilton.jpg">
+                </div>
+            </div>
+
+        </div>
+    </section>
 
     <!-- TESTIMONIOS -->
 
     <section class="testimonials">
-
         <div class="container">
-
             <h2 class="section-title">CLIENTES FELICES</h2>
-
             <div class="test-grid">
 
                 <div class="test">
-
-                    <p>
-                        "Quedo tan hermoso 😍 gracias, como siempre fan de tu trabajo 🖤"
-                    </p>
+                    <p>"Quedo tan hermoso gracias, como siempre fan de tu trabajo 🖤"</p>
 
                     <h4>- @lorena_camargo</h4>
-
                 </div>
 
                 <div class="test">
+                    <p>"Gracias a ti por el trabajo tan impecable! Precioso! 😍"</p>
 
-                    <p>
-                        "Se nota el amor en cada detalle del retrato."
-                    </p>
-
-                    <h4>- Andrés P</h4>
-
+                    <h4>- @carolmb.987</h4>
                 </div>
 
-            </div>
+                <div class="test">
+                    <p>"Muchas Gracias Quedamos muy contentos con tu trabajo!👏"</p>
 
+                    <h4>- @lalita2885</h4>
+                </div>
+
+                <div class="test">
+                    <p>"Quedó hermosa mi Annie, super mega recomendado"</p>
+
+                    <h4>- @patico1982</h4>
+                </div>
+
+                <div class="test">
+                    <p>"Quedó hermoso muchas gracias.!🤍"</p>
+
+                    <h4>- @araqn_</h4>
+                </div>
+
+                <div class="test">
+                    <p>"Me encantó... ha sido una de mis mejores regalos, ver a mi amor chiquito 
+                        tan bien reflejado...Gracias por plasmar a mi Simón"</p>
+
+                    <h4>- @ginna_1490</h4>
+                </div>
+            </div>
         </div>
 
     </section>
@@ -257,9 +409,7 @@
     <!-- CONTACTO -->
 
     <section id="contact" class="contact">
-
         <div class="container">
-
             <div class="contact-box">
 
                 <h2>LET'S WORK TOGETHER</h2>
@@ -267,30 +417,23 @@
                 <p>¿Tienes una foto y quieres convertirla en arte? Hablemos.</p>
 
                 <div class="contact-links">
-
                     <a href="https://wa.me/573193300380?text=Hola%20quiero%20un%20retrato" class="btn-whatsapp">
 
                         <i class="fab fa-whatsapp"></i>
                         WHATSAPP
-
                     </a>
-
 
                     <a href="https://instagram.com/duvanfelipeu" class="btn-insta">
 
                         <i class="fab fa-instagram"></i>
                         INSTAGRAM
-
                     </a>
 
                 </div>
-
             </div>
-
         </div>
 
     </section>
-
 
     <!-- FOOTER -->
 
@@ -312,13 +455,41 @@
 
     </footer>
 
+    <!-- MODAL/LIGHTBOX PARA GALERÍA -->
+    <div id="galleryModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            
+            <div class="modal-body">
+                <button class="modal-prev">&#10094;</button>
+                
+                <div class="modal-image-container">
+                    <img id="modalImg" src="" alt="Obra completa">
+                    <div class="modal-counter">
+                        <span id="currentImg">1</span> / <span id="totalImg">5</span>
+                    </div>
+                </div>
+                
+                <button class="modal-next">&#10095;</button>
+            </div>
+            
+            <div class="modal-info">
+                <h3 id="modalTitle">Título de la obra</h3>
+                <p id="modalDesc">Descripción</p>
+            </div>
+            
+            <!-- Thumbnails -->
+            <div class="modal-thumbnails" id="modalThumbnails">
+                <!-- Se generan dinámicamente -->
+            </div>
+        </div>
+    </div>
 
     <!-- BOTON VOLVER ARRIBA -->
 
     <button id="topBtn">
         <i class="fas fa-arrow-up"></i>
     </button>
-
 
     <!-- SCRIPTS -->
 
@@ -335,7 +506,6 @@
 
     </script>
 
-
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <script>
@@ -349,7 +519,6 @@
         ScrollReveal().reveal('.work-item', { interval: 100 });
 
     </script>
-
 
     <script>
 
@@ -379,6 +548,166 @@
             });
 
         };
+
+    </script>
+
+    <script>
+
+        const buttons = document.querySelectorAll(".cat-btn");
+        const items = document.querySelectorAll(".catalogo-item");
+
+        buttons.forEach(btn => {
+
+            btn.addEventListener("click", () => {
+
+                document.querySelector(".cat-btn.active").classList.remove("active");
+                btn.classList.add("active");
+
+                let category = btn.getAttribute("data-cat");
+
+                items.forEach(item => {
+
+                    if (category === "all") {
+                        item.style.display = "block";
+                    }
+                    else if (item.classList.contains(category)) {
+                        item.style.display = "block";
+                    }
+                    else {
+                        item.style.display = "none";
+                    }
+
+                });
+
+            });
+
+        });
+
+        // GALERÍA MODAL
+        const modal = document.getElementById('galleryModal');
+        const modalImg = document.getElementById('modalImg');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalDesc = document.getElementById('modalDesc');
+        const currentImgSpan = document.getElementById('currentImg');
+        const totalImgSpan = document.getElementById('totalImg');
+        const thumbnailsContainer = document.getElementById('modalThumbnails');
+        const closeBtn = document.querySelector('.close-modal');
+        const prevBtn = document.querySelector('.modal-prev');
+        const nextBtn = document.querySelector('.modal-next');
+
+        let currentImages = [];
+        let currentIndex = 0;
+
+        // Abrir modal al hacer clic en imagen del catálogo
+        const catalogoItems = document.querySelectorAll('.catalogo-item');
+
+        catalogoItems.forEach(item => {
+            item.addEventListener('click', function() {
+                const images = JSON.parse(this.getAttribute('data-images'));
+                const title = this.getAttribute('data-title');
+                const desc = this.getAttribute('data-desc');
+                
+                if (images && images.length > 0) {
+                    currentImages = images;
+                    currentIndex = 0;
+                    
+                    modalTitle.textContent = title || 'Obra de Arte';
+                    modalDesc.textContent = desc || '';
+                    
+                    showModal();
+                    updateModalImage();
+                }
+            });
+            
+            // Cursor pointer
+            item.style.cursor = 'pointer';
+        });
+
+        function showModal() {
+            modal.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function hideModal() {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        function updateModalImage() {
+            modalImg.src = currentImages[currentIndex];
+            currentImgSpan.textContent = currentIndex + 1;
+            totalImgSpan.textContent = currentImages.length;
+            
+            // Actualizar thumbnails
+            updateThumbnails();
+        }
+
+        function updateThumbnails() {
+            thumbnailsContainer.innerHTML = '';
+            
+            currentImages.forEach((imgSrc, index) => {
+                const thumb = document.createElement('img');
+                thumb.src = imgSrc;
+                thumb.alt = `Vista ${index + 1}`;
+                thumb.classList.toggle('active', index === currentIndex);
+                
+                thumb.addEventListener('click', () => {
+                    currentIndex = index;
+                    updateModalImage();
+                });
+                
+                thumbnailsContainer.appendChild(thumb);
+            });
+        }
+
+        function nextImage() {
+            currentIndex = (currentIndex + 1) % currentImages.length;
+            updateModalImage();
+        }
+
+        function prevImage() {
+            currentIndex = (currentIndex - 1 + currentImages.length) % currentImages.length;
+            updateModalImage();
+        }
+
+        // Event listeners
+        closeBtn.addEventListener('click', hideModal);
+        nextBtn.addEventListener('click', nextImage);
+        prevBtn.addEventListener('click', prevImage);
+
+        // Cerrar al hacer clic fuera del contenido
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                hideModal();
+            }
+        });
+
+        // Navegación con teclado
+        document.addEventListener('keydown', (e) => {
+            if (modal.style.display === 'block') {
+                if (e.key === 'Escape') hideModal();
+                if (e.key === 'ArrowRight') nextImage();
+                if (e.key === 'ArrowLeft') prevImage();
+            }
+        });
+
+        // Touch events para móvil
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        modal.addEventListener('touchstart', (e) => {
+            touchStartX = e.changedTouches[0].screenX;
+        });
+
+        modal.addEventListener('touchend', (e) => {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+        });
+
+        function handleSwipe() {
+            if (touchEndX < touchStartX - 50) nextImage();
+            if (touchEndX > touchStartX + 50) prevImage();
+        }
 
     </script>
 
